@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-800
+  @apply bg-[#09090A] text-zinc-100;
 }
 
 .button {
-  @apply bg-violet-500 px-4 h-10 rounded text-violet-100 hover:bg-violet-700 transition-colors
+  @apply bg-violet-500 px-4 h-10 rounded text-violet-100 hover:bg-violet-700 transition-colors;
 }
