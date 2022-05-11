@@ -64,8 +64,6 @@ export function Form({
       payload.screenshot = `data:image/png;base64,${screenshotBase64}`;
     }
 
-    console.log(payload);
-
     try {
       await api.post("/feedbacks", payload);
 
